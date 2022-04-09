@@ -26,6 +26,7 @@ public class FirstActivity extends AppCompatActivity {
             }
         });
 
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
