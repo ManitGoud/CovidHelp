@@ -18,14 +18,12 @@ public class FirstActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first);
         login= (Button) findViewById(R.id.login);
         register= (Button) findViewById(R.id.register);
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(FirstActivity.this, UserLogin.class));
             }
         });
-
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
